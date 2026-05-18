@@ -18,9 +18,9 @@
         lower_layer {
             display-name = "Lower";
             bindings = <
-    &kp GRAVE &kp EXCL &kp AT   &kp HASH &kp DLR    &kp CIRC &kp AMPS &kp LPAR &kp RPAR &kp BSLH
-    &kp CAPS  &kp TILD &kp LBRC &kp RBRC &kp LCBR   &kp RCBR &kp LEFT &kp DOWN &kp UP   &kp RGHT
-    &kp LSHFT &kp PIPE &kp UNDS &kp PLUS &kp MINUS  &kp EQUAL &kp LCTRL &kp LGUI &kp LALT &kp RCTRL
+    &kp GRAVE &kp EXCL &kp AT   &kp HASH &kp DLLR   &kp CRRT &kp AMPS &kp LPAR &kp RPAR &kp BSLH
+    &kp CAPS  &kp TILD &kp LBKT &kp RBKT &kp LBRC   &kp RBRC &kp LEFT &kp DOWN &kp UP   &kp RGHT
+    &kp LSHFT &kp PIPE &kp UNDER &kp PLUS &kp MINUS &kp EQUAL &kp LCTRL &kp LGUI &kp LALT &kp RCTRL
               &trans   &trans   &trans   &trans      &trans   &trans   &trans   &trans   &trans
             >;
         };
@@ -41,7 +41,7 @@
     &studio_unlock &trans   &trans   &trans   &trans     &trans   &trans   &trans   &trans   &trans
     &trans        &trans   &trans   &trans   &trans     &trans   &trans   &trans   &trans   &trans
     &trans        &trans   &trans   &trans   &trans     &trans   &trans   &trans   &trans   &trans
-                  &mo 3    &trans   &trans   &trans     &trans   &trans   &mo 3    &trans   &kp RESET
+                  &mo 3    &trans   &trans   &trans     &trans   &trans   &mo 3    &trans   &bootloader
             >;
         };
     };
