@@ -1,0 +1,11 @@
+#include "cosmotyl.dtsi"
+
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+    };
+};
+
+&default_transform {
+    col-offset = <6>;
+};

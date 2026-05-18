@@ -1,0 +1,12 @@
+config SHIELD_COSMOTYL_LEFT
+    def_bool $(shields_list_contains,cosmotyl_left)
+
+config SHIELD_COSMOTYL_RIGHT
+    def_bool $(shields_list_contains,cosmotyl_right)
+
+if SHIELD_COSMOTYL_LEFT || SHIELD_COSMOTYL_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Cosmotyl"
+
+endif
